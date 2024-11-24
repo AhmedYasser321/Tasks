@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.container{ display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #ddd;
+    padding: 10px;
+     border-radius: 6px;
+    -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px; 
+      -o-border-radius: 6px;
+}
+
+
+@media (max-width:767px){
+    .container .form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:767px){
+    .container .add{
+        width: 285px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:767px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+input{
+    background-color: white;
+}
+
+@media (min-width:768px){
+    input{
+        width: 600px;
+    }
+}
+
+@media (max-width:767px){
+    input{
+        width: 285px;
+    }
+}
+
+
+input:focus{
+    outline: none;
+}
+button{
+    background-color: rgb(216, 20, 20);
+    color: white;
+    cursor: pointer;
+}
+button , input{
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+@media (max-width:767px){
+    .input{
+      margin-right: 0;
+    }
+}
+@media (min-width:768px){
+    .input{
+        margin-right: 10px;
+    }
+}
+
+.tasks{
+    margin-top: 20px;
+    background-color: #ddd;
+    padding: 20px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.tasks .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+}
+
+.tasks span {
+    cursor: pointer;
+    background-color: rgb(216, 20, 20);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.remove{
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.top{
+ position: fixed;
+ right: -60px;
+ bottom: 10px;
+ display: none;
+ transition: 5s;
+ -webkit-transition: 5s;
+ -moz-transition: 5s;
+ -ms-transition: 5s;
+ -o-transition: 5s;
+}
+
+.show {
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
